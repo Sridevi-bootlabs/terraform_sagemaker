@@ -268,7 +268,7 @@ resource "aws_s3_bucket_acl" "example" {
 # }
 
 resource "aws_s3_bucket_lifecycle_configuration" "example" {
-  bucket = aws_s3_bucket.bucket.b.id
+  bucket = aws_s3_bucket.b.id
 
   rule {
     id = "rule-1"

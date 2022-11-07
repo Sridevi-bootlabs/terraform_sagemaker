@@ -288,7 +288,7 @@ resource "aws_s3_bucket_lifecycle_configuration" "example" {
 # }nm,.
 
 resource "aws_s3_bucket_versioning" "versioning_example" {
-  bucket = aws_s3_bucket.likujh-sridevi.id
+  bucket = aws_s3_bucket.b.id
   versioning_configuration {
     status = "Enabled"
   }
